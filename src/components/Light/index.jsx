@@ -10,7 +10,7 @@ const Light = ({ name, state }) => {
     <div
       className="light"
       onClick={() => {
-        lights === "off" ? setLights("on") : setLights("off");
+        setLights(lights === "off" ? "on" : "off");
       }}
     >
       <div className="light__icon">

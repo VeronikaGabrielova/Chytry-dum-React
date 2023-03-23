@@ -17,9 +17,7 @@ const Blinds = ({ state }) => {
           onClick={() => {
             setBlindsState("open");
           }}
-          className={
-            blindsState === "open" ? "button button--active" : "button"
-          }
+          className={blindsState === "open" ? "button button--active" : " "}
         >
           Otevřeno
         </button>
@@ -27,9 +25,7 @@ const Blinds = ({ state }) => {
           onClick={() => {
             setBlindsState("closed");
           }}
-          className={
-            blindsState === "closed" ? "button button--active" : "button"
-          }
+          className={blindsState === "closed" ? "button button--active" : " "}
         >
           Zavřeno
         </button>
